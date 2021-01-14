@@ -48,7 +48,7 @@ class Person
     def call_friend(instance)
         self.happiness += 3
         instance.happiness += 3
-       "Hi #{instance.name}! It's #{self.name}. How are you?"
+        "Hi #{instance.name}! It's #{self.name}. How are you?"
     end
     def start_conversation(instance, topic)
         if topic == "politics"
